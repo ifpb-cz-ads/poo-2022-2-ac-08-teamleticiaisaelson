@@ -1,7 +1,7 @@
 public class Cliente {
     private String nome;
     private String cpf;
-
+    public Cliente() {}
     public Cliente(String nome, String cpf){
         this.setNome(nome);
         this.setCpf(cpf);
